@@ -21,5 +21,6 @@ RUN npm install -y jsonwebtoken socket.io nodemailer nodemailer-smtp-transport l
 RUN npm install -y cron errorhandler node-cron deformat
 RUN npm install -y jquery react fs-extra prop-types react-dom bluebird vue axios tslib mkdirp glob colors webpack
 RUN npm install -y cookie-parser through2 semver eslint shelljs dotenv redux gulp mocha ssh2
+RUN npm install -y json2xls
 
 #EXPOSE 8000
